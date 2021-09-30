@@ -40,6 +40,6 @@ after_script:
 #   github-token: $GH_TOKEN
 #   keep-history: true
 #   on:
-#     branch: master
+#     branch: main
 #   local-dir: public
 # End: Build LifeCycle
