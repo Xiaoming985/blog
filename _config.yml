@@ -106,5 +106,5 @@ deploy:
   type: git
   # 下方的gh_token会被.travis.yml中sed命令替换
   repo: https://gh_token@github.com/Xiaoming985/xiaoming985.github.io.git
-  # repo: git@github.com:Xiaoming985/xiaoming985.github.io.git
-  branch: master
+  # repo: git@github.com:Xiaoming985/xiaoming985.github.io.git # ssh手动部署, hexo d
+  branch: main
