@@ -4,7 +4,7 @@ language: node_js
 sudo: false # required
 # 指定node_js版本
 node_js: 
-  - 10
+  - 12
 # 指定缓存模块，可选。缓存可加快编译速度。
 cache: npm
   # directories:
@@ -22,7 +22,6 @@ before_install:
 install:
   - npm install
   - npm install hexo-deployer-git --save
-  - npm install hexo-theme-aurora --save
 
 # 执行清缓存，生成网页操作
 script:
