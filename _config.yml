@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://xiaoming985.github.io/blog
+url: https://xiaoming985.github.io
 permalink: /post/:title.html
 permalink_defaults:
 pretty_urls:
@@ -97,8 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-# theme: aurora
+# theme: landscape
+theme: aurora
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -107,4 +107,4 @@ deploy:
   # 下方的gh_token会被.travis.yml中sed命令替换
   repo: https://gh_token@github.com/Xiaoming985/xiaoming985.github.io.git
   # repo: git@github.com:Xiaoming985/xiaoming985.github.io.git
-  branch: gh-pages
+  branch: master
