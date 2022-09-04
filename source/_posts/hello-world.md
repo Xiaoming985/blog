@@ -15,7 +15,7 @@ title: Hexo + Github + Travis CI 搭建博客
 ## Hexo
 下载安装好nodejs之后，打开cmd命令行，使用如下命令安装hexo-cli
 ```bash
-$ npm install -g hexo-cli -g
+$ npm install -g hexo-cli
 ```
 安装好之后，使用hexo -v查看是否成功
 ```bash
