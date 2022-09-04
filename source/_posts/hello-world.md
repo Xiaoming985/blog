@@ -29,7 +29,7 @@ $ hexo init [folderName]
 ```bash
 $ hexo server
 ```
-生成静态页面文件（简写hexo g），使用该命令可以将编写好的博文转成静态页面
+生成静态页面文件（简写hexo g），使用该命令可以将编写好的博文转成静态页面(生成目录是public)
 ```bash
 $ hexo generate
 ```
@@ -95,7 +95,7 @@ deploy:
   keep-history: true
   on:
     branch: main
-  local-dir: public
+  local-dir: public # 生成的页面目录
 # End: Build LifeCycle
 ```
  - 然后修改`_config.yml`，如下：(替换username即可)，以下配置即构建后将静态文件推送指`gh-pages分支`
