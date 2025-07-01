@@ -398,11 +398,11 @@ export function getPrompt(command, text) {
 		        {
 		          id: <唯一id>,
 		          type: <幻灯片版式>,
-		          value: <内容要点>,
+		          value: <内容>,
 		          shapes: [
 		            {
 		              id: <唯一id>,
-		              value: <内容>,
+		              value: <内容要点>,
 		              text: <string类型，论述当前内容要点，要求具体详细>,
 		            }
 		          ]
@@ -410,7 +410,16 @@ export function getPrompt(command, text) {
 		        </期望输出>
 		        
 		        <JSON字段要求>
-		        ...
+		        1.id: 维持原有id，若原有id不存在，则生成新的唯一id
+				2.type: 维持原有值，表示幻灯片版式
+				3.value: 维持原有值
+				4.shapes: 
+				  - 表示当前幻灯片包含的元素，数组形式；
+				  - 每个数组元素表示一个内容要点，请根据正文的写作思路(writingIdea)展开；
+				  - 随机展开1到5个内容要点，但个数严格控制在1到5个之间；
+				  - 内容要点要求语言精简，用做小标题，不可过长；
+				  - 禁止生成重复要点，不可为空；
+				5.shapes.text: String类型，用以论述正文对应的内容要点，要求给出具体的详细内容，不可为空；
 		        </JSON字段要求>
 		
 		        <其他要求>
