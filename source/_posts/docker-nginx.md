@@ -2,8 +2,8 @@
 title: docker部署nginx镜像
 date: 2025-07-03 08:46:00
 tags:
- - wpsjs加载项
- - LLM大语言模型集成
+ - docker实战
+ - nginx镜像
 ---
 # docker部署nginx镜像
 
