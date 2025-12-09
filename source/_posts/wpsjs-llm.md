@@ -60,7 +60,7 @@ wpsjs debug
 <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="ribbon.OnAddinLoad">
     <ribbon startFromScratch="false">
         <tabs>
-            <tab id="wpsAddinTab" label="吉量办公Word">
+            <tab id="wpsAddinTab" label="Word AI 助手">
                 <group id="btnDemoGroup" label="group1">
                     <button id="continueWrite" label="续写" onAction="ribbon.OnAction" getImage="ribbon.GetImage" size="large"></button>
                     <menu id="polish" label="润色" getImage="ribbon.GetImage" size="large">

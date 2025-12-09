@@ -7,10 +7,6 @@ tags:
  - Vite + Vue3 + Typescript
 ---
 
-许久不见，甚是想念～
-
-好久没有更新博客了，今天给大家分享一下搭建组件库的方法。良心干货，赶紧码住收藏吧～
-
 ## 安装PNPM
 ```bash
 $ npm install -g pnpm
